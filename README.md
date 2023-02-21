@@ -3,11 +3,17 @@ CONET
 ## TIDE 2023
 * [TIDE2023](https://tide.act.nato.int/mediawiki/tidepedia/index.php/2023_TIDE_Hackathon)
 * [Team CONET](https://tide.act.nato.int/mediawiki/tidepedia/index.php/Team_1097)
+* [Definition and references](https://tide.act.nato.int/mediawiki/tidepedia/index.php/Challenge_1038#tab=Definition)
 
 ## Data Sources of curated disinformation
-* [EUvsDisinfo database](https://euvsdisinfo.eu/disinformation-cases/)
+* [EUvsDisinfo database](https://euvsdisinfo.eu/disinformation-cases/), [what is EUvsDisinfo](https://en.wikipedia.org/wiki/East_StratCom_Task_Force)
   * [20 entries](Datasets/EUDisinfo.txt)
   * [9076 prewar entries](Datasets/euvsdisinfo_v1_2.csv), until July 2020, tab separated, keywords (filter out coronavirus), summary, disproof. Can be used for database of correct information (disproof) and of disinformation (summary), [source](https://www.kaggle.com/datasets/imuhammad/euvsdisinfo-disinformation-database)
+* [Kaggle Fake News](https://www.kaggle.com/datasets/mrisdal/fake-news)
+
+## Manipulation, style, rhetorics
+* [Identifying Disinformation Using Rhetorical Devices in Natural Language Models](https://www.osti.gov/biblio/1891194)
+* [Fake News Classification with BERT](https://towardsdatascience.com/fake-news-classification-with-bert-afbeee601f41)
 
 ## Ideas
 * build databases with true information and with false information
