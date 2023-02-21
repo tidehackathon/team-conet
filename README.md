@@ -12,6 +12,7 @@ CONET
 ## Ideas
 * build databases with true information and with false information
 * compare twitter input semantically (AI, BERT etc.) with entries of both databases
+* ignore most metadata, use date for matching twitter input to possibly related news entries
 * classify twitter input in true/false/unknown depending on semantic similarities with entries in both databases
 * Split articles from Guardian and NYT to get small pieces of true statements
   * split in paragraphs
