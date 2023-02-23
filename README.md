@@ -11,7 +11,7 @@ All code and data is in the folder Release. Apart from usual imports we need:
 All of these are open source and have excellent documentation. Excecuting the python programs should work if the two data files "annotated.tweets" and "EUDisinfo.txt" are in the same directory. Only the path to DisInformation-Challenge-Data needs to be adapted in ManipulationDetection.py.
 
 ### FactChecker.py
-This program tests 37 AI modules for sentence similarity for the task of finding a statement in a set of (true or false) statements. At the end the statements in EUDisinfo.txt are sorted by similarity to a couple of test statements. This shows how well a test statement can be matched semantically to the provided statements.
+This program tests 37 AI modules for sentence similarity for the task of finding a statement in a set of (true or false) statements and chooses the best model. At the end the statements in EUDisinfo.txt are sorted by similarity to a couple of test statements. This shows how well a test statement can be matched semantically to the provided statements.
 
 ### ManipulationDetection.py
 This program trains a RoBERTa model to detect manipulative formulations according to the data in annotated.tweets. It sorts 10000 Tweets of the provided data according to be manipulating or not within a few seconds on an RTX 2080.
