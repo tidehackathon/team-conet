@@ -14,7 +14,7 @@ All of these are open source and have excellent documentation. Excecuting the py
 This program tests 37 AI modules for sentence similarity for the task of finding a statement in a set of (true or false) statements. At the end the statements in EUDisinfo.txt are sorted by similarity to a couple of test statements. This shows how well a test statement can be matched semantically to the provided statements.
 
 ### ManipulationDetection.py
-This program trains a RoBERTa model to detect manipulative formulations according to the data in annotated.tweets. It sorts 10000 Tweets of the provided data according to be manipulated or not within a few seconds on an RTX 2080.
+This program trains a RoBERTa model to detect manipulative formulations according to the data in annotated.tweets. It sorts 10000 Tweets of the provided data according to be manipulating or not within a few seconds on an RTX 2080.
 
 ## TIDE 2023
 * [TIDE2023](https://tide.act.nato.int/mediawiki/tidepedia/index.php/2023_TIDE_Hackathon)
